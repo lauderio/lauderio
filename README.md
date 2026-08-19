@@ -4,40 +4,38 @@
 
 <br/>
 
-<table border="0" width="100%">
-  <tr>
-    <td width="54%" valign="top">
-      <h3>⚡ Architecting Resilient & Scalable Systems</h3>
-      <p>
-        I am <strong>Marcos Laudério Eduardo Tavares</strong>, a <strong>Senior Full-Stack Engineer & Systems Architect</strong> specializing in distributed web applications, multi-tenant enterprise software (ERP), and high-throughput backend services across the <strong>TypeScript</strong> and <strong>PHP</strong> ecosystems.
-      </p>
-      <ul>
-        <li>🚀 <strong>Core Philosophy:</strong> Clean Architecture, Domain-Driven Design & SOLID.</li>
-        <li>🗄️ <strong>Data Engineering:</strong> Relational modeling, query optimization & Prisma ORM.</li>
-        <li>🐧 <strong>Workstation:</strong> Zorin OS (Dedicated Linux Engineering Environment).</li>
-        <li>🌐 <strong>Focus:</strong> Mission-critical business systems, e-commerce & low-latency APIs.</li>
-      </ul>
-      <br/>
-      <div>
-        <a href="https://www.linkedin.com/in/marcoslauderio/" target="_blank">
-          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-        </a>
-        &nbsp;
-        <a href="mailto:marcoslauderio@gmail.com">
-          <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-        </a>
-        &nbsp;
-        <a href="#-devops-cloud--workstation">
-          <img src="https://img.shields.io/badge/OS-Zorin_OS-0CC1EC?style=for-the-badge&logo=zorin&logoColor=white" alt="Zorin OS" />
-        </a>
-      </div>
-    </td>
-    <td width="46%" align="center" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=lauderio&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" width="100%" alt="GitHub Stats" />
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lauderio&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" width="100%" alt="Top Languages" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+  # Marcos Laudério Eduardo Tavares
+  ### ⚡ I design and engineer scalable, fault-tolerant, production-grade systems.
+
+  <p align="center">
+    <strong>Senior Full-Stack Engineer & Systems Architect</strong> specializing in distributed web applications, multi-tenant enterprise platforms (ERP), and high-throughput backend services across the <strong>TypeScript</strong> and <strong>PHP</strong> ecosystems.
+  </p>
+
+  <p align="center">
+    <a href="https://www.linkedin.com/in/marcoslauderio/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    &nbsp;
+    <a href="mailto:marcoslauderio@gmail.com">
+      <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    &nbsp;
+    <a href="#-devops-cloud--workstation">
+      <img src="https://img.shields.io/badge/Workstation-Zorin_OS_(Linux)-0CC1EC?style=for-the-badge&logo=zorin&logoColor=white" alt="Workstation" />
+    </a>
+  </p>
+
+  <br/>
+
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=lauderio&show_icons=true&theme=tokyonight&border_radius=8&hide_border=true" height="170" alt="GitHub Stats" />
+    &nbsp;
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lauderio&layout=compact&theme=tokyonight&border_radius=8&hide_border=true" height="170" alt="Top Languages" />
+  </p>
+
+</div>
 
 ---
 
@@ -46,13 +44,13 @@
 <table border="0" width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4>⚡ Performance-Oriented Systems</h4>
+      <h3>⚡ Performance-Oriented Systems</h3>
       <p>
         Architected backend pipelines, event-driven integrations, and low-latency RESTful APIs designed for high request throughput, minimal memory footprint, and high availability.
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4>🎨 High-Fidelity Frontends</h4>
+      <h3>🎨 High-Fidelity Frontends</h3>
       <p>
         Next.js App Router (SSR, SSG, Server Actions) coupled with React and Tailwind CSS. Delivering sub-second First Contentful Paint (FCP), strict accessibility, and fluid user experiences.
       </p>
@@ -60,13 +58,13 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🗄️ Robust Data Architectures</h4>
+      <h3>🗄️ Robust Data Architectures</h3>
       <p>
         Deep relational schema normalization, query indexing, zero-downtime migrations, and high-performance ORM orchestration using <strong>PostgreSQL</strong>, <strong>MySQL</strong>, and <strong>Prisma</strong>.
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4>🏢 Enterprise Business Platforms</h4>
+      <h3>🏢 Enterprise Business Platforms</h3>
       <p>
         Production-grade ERPs, multi-tenant hospital/educational platforms, and high-concurrency marketplaces built with modular monoliths and domain-driven design.
       </p>
@@ -78,8 +76,6 @@
 
 ## 💼 High-Impact Enterprise Projects
 
-<div align="center">
-
 | Project | Architectural Scope & Business Impact | Core Tech Stack |
 | :--- | :--- | :--- |
 | 💼 **Kumbu - ERP** | **Enterprise Resource Planning Platform.** Engineered with multi-tenant architecture, automated financial workflows, inventory reconciliation, and real-time operational telemetry. | `Next.js` `TypeScript` `Prisma` `PostgreSQL` |
@@ -87,8 +83,6 @@
 | 🏥 **Zênite360** | **Hospital Management System.** Mission-critical medical ERP delivering electronic health record (EHR) pipelines, patient triage automation, and secure scheduling interfaces. | `Next.js` `React` `Prisma` `MySQL` |
 | 🎓 **EduClass AO** | **Academic & Institutional ERP.** Scalable educational suite managing student matriculation, automated grade computation, class scheduling, and institutional financial auditing. | `Next.js` `TypeScript` `PostgreSQL` `Prisma` |
 | ⏱️ **Gest-Q** | **Queue & Service Concurrency Engine.** Real-time ticket dispensing and customer flow management engine designed for high concurrency and operational wait-time reduction. | `Laravel` `PHP` `Tailwind CSS` `MySQL` |
-
-</div>
 
 ---
 
