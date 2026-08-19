@@ -1,62 +1,78 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:161B22&height=220&section=header&text=MARCOS%20LAUD%C3%89RIO&fontSize=42&fontColor=F0F6FC&animation=fadeIn&fontAlignY=38&desc=Senior%20Full-Stack%20Engineer%20%7C%20Systems%20Architect&descSize=16&descAlignY=62&descColor=8B949E" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:090D16,35:0D1117,70:161B22,100:1F6FEB&height=230&section=header&text=MARCOS%20LAUD%C3%89RIO&fontSize=42&fontColor=F0F6FC&animation=fadeIn&fontAlignY=36&desc=Senior%20Full-Stack%20Engineer%20%7C%20Systems%20Architect&descSize=16&descAlignY=60&descColor=58A6FF" width="100%" alt="Header Banner" />
 </div>
 
-<div align="center">
+<br/>
 
-  # Marcos Laudério Eduardo Tavares
-  ### ⚡ I design and engineer scalable, fault-tolerant, production-grade systems.
-
-  <p align="center">
-    <strong>Senior Full-Stack Engineer & Systems Architect</strong> specializing in distributed web applications, enterprise ERP platforms, and high-concurrency systems across the <strong>TypeScript</strong> and <strong>PHP</strong> ecosystems.
-  </p>
-
-  <p align="center">
-    <a href="https://www.linkedin.com/in/marcoslauderio/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="mailto:marcoslauderio@gmail.com">
-      <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    <a href="#-devops-cloud--workstation">
-      <img src="https://img.shields.io/badge/Workstation-Zorin_OS_(Linux)-0CC1EC?style=for-the-badge&logo=zorin&logoColor=white" alt="Workstation" />
-    </a>
-  </p>
-
-</div>
+<table border="0" width="100%">
+  <tr>
+    <td width="54%" valign="top">
+      <h3>⚡ Architecting Resilient & Scalable Systems</h3>
+      <p>
+        I am <strong>Marcos Laudério Eduardo Tavares</strong>, a <strong>Senior Full-Stack Engineer & Systems Architect</strong> specializing in distributed web applications, multi-tenant enterprise software (ERP), and high-throughput backend services across the <strong>TypeScript</strong> and <strong>PHP</strong> ecosystems.
+      </p>
+      <ul>
+        <li>🚀 <strong>Core Philosophy:</strong> Clean Architecture, Domain-Driven Design & SOLID.</li>
+        <li>🗄️ <strong>Data Engineering:</strong> Relational modeling, query optimization & Prisma ORM.</li>
+        <li>🐧 <strong>Workstation:</strong> Zorin OS (Dedicated Linux Engineering Environment).</li>
+        <li>🌐 <strong>Focus:</strong> Mission-critical business systems, e-commerce & low-latency APIs.</li>
+      </ul>
+      <br/>
+      <div>
+        <a href="https://www.linkedin.com/in/marcoslauderio/" target="_blank">
+          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+        </a>
+        &nbsp;
+        <a href="mailto:marcoslauderio@gmail.com">
+          <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+        </a>
+        &nbsp;
+        <a href="#-devops-cloud--workstation">
+          <img src="https://img.shields.io/badge/OS-Zorin_OS-0CC1EC?style=for-the-badge&logo=zorin&logoColor=white" alt="Zorin OS" />
+        </a>
+      </div>
+    </td>
+    <td width="46%" align="center" valign="top">
+      <img src="https://github-readme-stats.vercel.app/api?username=lauderio&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" width="100%" alt="GitHub Stats" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lauderio&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" width="100%" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🏛️ Engineering Philosophy & Core Competencies
+## 🏛️ Engineering Pillars & Deliverables
 
-Senior engineer with a track record of translating complex business requirements into high-throughput, maintainable software architectures. Dedicated to type-safe systems, automated deployment lifecycles, and optimal developer ergonomics.
-
-```typescript
-interface SystemsEngineer {
-  name: "Marcos Laudério Eduardo Tavares";
-  role: "Senior Full-Stack Engineer | Systems Architect";
-  environment: "Zorin OS (Linux Workstation)";
-  primaryStack: {
-    frontend: ["Next.js (App Router)", "React.js", "TypeScript", "Tailwind CSS"];
-    backend: ["Node.js", "Express.js", "PHP", "Laravel", "RESTful / Webhook APIs"];
-    persistence: ["PostgreSQL", "MySQL", "Prisma ORM", "Supabase"];
-    infrastructure: ["Docker", "Vercel", "Render", "CI/CD Pipelines", "Git"];
-  };
-  principles: [
-    "Clean Architecture & SOLID Principles",
-    "Relational Database Normalization & Index Tuning",
-    "Type Safety End-to-End",
-    "High Availability & Low-Latency API Design"
-  ];
-}
-```
-
-### 🎯 What I Deliver
-
-- ⚡ **Performance-Oriented Systems:** Architected backend pipelines, event-driven integrations, and low-latency RESTful APIs designed to process high request volumes with minimal resource overhead.
-- 🎨 **High-Fidelity Frontend Engineering:** Server-Side Rendered (SSR) and statically generated web interfaces with sub-second First Contentful Paint (FCP), strict accessibility standards, and fluid UX.
-- 🗄️ **Robust Data Architectures:** Deep database normalization, indexing strategies, zero-downtime schema migrations, and optimized ORM querying using **Prisma**, **PostgreSQL**, and **MySQL**.
-- 🏢 **Enterprise Business Systems:** Custom Enterprise Resource Planning (ERP), multi-tenant hospital/academic software, and multi-vendor marketplaces built with modular monolith and microservice architectures.
+<table border="0" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>⚡ Performance-Oriented Systems</h4>
+      <p>
+        Architected backend pipelines, event-driven integrations, and low-latency RESTful APIs designed for high request throughput, minimal memory footprint, and high availability.
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🎨 High-Fidelity Frontends</h4>
+      <p>
+        Next.js App Router (SSR, SSG, Server Actions) coupled with React and Tailwind CSS. Delivering sub-second First Contentful Paint (FCP), strict accessibility, and fluid user experiences.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🗄️ Robust Data Architectures</h4>
+      <p>
+        Deep relational schema normalization, query indexing, zero-downtime migrations, and high-performance ORM orchestration using <strong>PostgreSQL</strong>, <strong>MySQL</strong>, and <strong>Prisma</strong>.
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🏢 Enterprise Business Platforms</h4>
+      <p>
+        Production-grade ERPs, multi-tenant hospital/educational platforms, and high-concurrency marketplaces built with modular monoliths and domain-driven design.
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -64,7 +80,7 @@ interface SystemsEngineer {
 
 <div align="center">
 
-| System | Architecture & Impact | Stack |
+| Project | Architectural Scope & Business Impact | Core Tech Stack |
 | :--- | :--- | :--- |
 | 💼 **Kumbu - ERP** | **Enterprise Resource Planning Platform.** Engineered with multi-tenant architecture, automated financial workflows, inventory reconciliation, and real-time operational telemetry. | `Next.js` `TypeScript` `Prisma` `PostgreSQL` |
 | 🛍️ **PDA-Shop** | **Multi-Vendor E-Commerce Marketplace.** High-throughput commerce engine with vendor isolation, relational catalog indexing, transactional cart flows, and secure payment gateway integration. | `Next.js` `React` `Prisma` `PostgreSQL` `Tailwind` |
@@ -123,31 +139,18 @@ interface SystemsEngineer {
 
 ---
 
-## 📊 Performance & Contribution Telemetry
+## 📊 Contribution Telemetry
 
 <div align="center">
-  <table border="0">
-    <tr>
-      <td align="center" valign="top">
-        <img src="https://github-readme-stats.vercel.app/api?username=lauderio&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="GitHub Stats" height="175" />
-      </td>
-      <td align="center" valign="top">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lauderio&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages" height="175" />
-      </td>
-    </tr>
-  </table>
-
-  <br/>
-
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=lauderio&theme=github-compact&bg_color=0D1117&color=58A6FF&line=58A6FF&point=F0F6FC&area=true&hide_border=true" width="95%" alt="Contribution Activity Graph" />
 </div>
 
 ---
 
-## 🌐 Connect & Engineering Inquiries
+## 🌐 Connect & Inquiries
 
 <div align="center">
-  <p>Open to architectural consulting, enterprise software engagements, and high-impact engineering leadership opportunities.</p>
+  <p>Open to architectural consulting, enterprise software engagements, and high-impact engineering opportunities.</p>
 
   <p>
     <a href="https://www.linkedin.com/in/marcoslauderio/" target="_blank">
@@ -161,5 +164,5 @@ interface SystemsEngineer {
 
   <br/>
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:161B22&height=120&section=footer" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F6FEB,50:161B22,100:090D16&height=120&section=footer" width="100%" alt="Footer Banner" />
 </div>
