@@ -65,17 +65,37 @@ const systemsEngineer = {
 
 ---
 
-## 📊 GitHub Telemetry & Activity
+<!-- ======================================================= -->
+<!-- GITHUB TELEMETRY & ACTIVITY SECTION (DARK / TOKYONIGHT) -->
+<!-- ======================================================= -->
 
 <div align="center">
 
-  <img src="https://github-readme-stats.vercel.app/api?username=lauderio&show_icons=true&theme=tokyonight&border_radius=8&hide_border=false" height="165" alt="GitHub Stats" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lauderio&layout=compact&theme=tokyonight&border_radius=8&hide_border=false" height="165" alt="Top Languages" />
+  <!-- Subtítulo Estilizado em SVG Cyberpunk -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" width="100%" height="60">
+    <rect width="1200" height="60" rx="8" fill="#0d1117" stroke="#1f2937" stroke-width="1"/>
+    <text x="50%" y="38" text-anchor="middle" fill="#38bdf8" font-family="-apple-system, monospace" font-size="18" font-weight="700" letter-spacing="2">
+      📊 GITHUB TELEMETRY &amp; METRICS
+    </text>
+  </svg>
 
   <br /><br />
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lauderio&theme=tokyonight&hide_border=false&area=true" width="100%" alt="Contribution Graph" />
+  <!-- Cards de Estatísticas com Tema Escuro e Links Diretos Corrigidos -->
+  <a href="https://github.com/lauderio">
+    <img src="https://github-readme-stats.vercel.app/api?username=lauderio&show_icons=true&theme=tokyonight&border_radius=8&hide_border=false" height="170" alt="GitHub Stats" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/lauderio">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lauderio&layout=compact&theme=tokyonight&border_radius=8&hide_border=false" height="170" alt="Top Languages" />
+  </a>
+
+  <br /><br />
+
+  <!-- Gráfico de Contribuições Escuro (Tema Tokyonight em vez de rosa) -->
+  <a href="https://github.com/lauderio">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=lauderio&theme=tokyonight&hide_border=false&area=true" width="100%" alt="Contribution Graph" />
+  </a>
 
 </div>
 
