@@ -68,15 +68,15 @@ const systemsEngineer = {
 ## 📊 GitHub Telemetry & Activity
 
 <div align="center">
-  <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=lauderio&show_icons=true&theme=tokyonight&border_radius=10" height="175" alt="GitHub Stats" />
-    &nbsp;
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lauderio&layout=compact&theme=tokyonight&border_radius=10" height="175" alt="Top Languages" />
-  </p>
 
-  <br/>
+  <img src="https://github-readme-stats.vercel.app/api?username=lauderio&show_icons=true&theme=tokyonight&border_radius=8&hide_border=false" height="165" alt="GitHub Stats" />
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lauderio&layout=compact&theme=tokyonight&border_radius=8&hide_border=false" height="165" alt="Top Languages" />
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lauderio&theme=tokyonight" width="95%" alt="Contribution Activity Graph" />
+  <br /><br />
+
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lauderio&theme=tokyonight&hide_border=false&area=true" width="100%" alt="Contribution Graph" />
+
 </div>
 
 ---
