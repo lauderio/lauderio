@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060911"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+
+    <!-- Cyber Neon Border Gradient -->
+    <linearGradient id="neon-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <!-- Row Background Gradient -->
+    <linearGradient id="row-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Subtle Engineering Grid Pattern -->
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1e293b" stroke-width="0.75" opacity="0.6"/>
+    </pattern>
+
+    <!-- Ambient Glow -->
+    <radialGradient id="ambient-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Outer Background Canvas -->
+  <rect width="1200" height="520" rx="16" fill="url(#bg-grad)"/>
+
+  <!-- Grid Layer -->
+  <rect width="1200" height="520" rx="16" fill="url(#grid)"/>
+
+  <!-- Center Glow -->
+  <circle cx="600" cy="260" r="320" fill="url(#ambient-glow)"/>
+
+  <!-- Neon Border Frame -->
+  <rect x="2" y="2" width="1196" height="516" rx="15" fill="none" stroke="url(#neon-border)" stroke-width="1.5" opacity="0.85"/>
+
+  <!-- Corner Tech Accents -->
+  <path d="M 18 36 L 18 18 L 36 18" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 1182 36 L 1182 18 L 1164 18" fill="none" stroke="#c084fc" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 18 484 L 18 502 L 36 502" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 1182 484 L 1182 502 L 1164 502" fill="none" stroke="#c084fc" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Header Badge -->
+  <g transform="translate(385, 24)">
+    <rect width="430" height="28" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-width="1" opacity="0.95"/>
+    <circle cx="18" cy="14" r="4" fill="#22c55e"/>
+    <text x="34" y="18" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" font-weight="700" letter-spacing="2">DEPLOYED ENTERPRISE SYSTEMS // PRODUCTION</text>
+  </g>
+
+  <!-- 5 Project Rows -->
+
+  <!-- ROW 1: PDA-Shop -->
+  <g transform="translate(48, 70)">
+    <rect width="1104" height="74" rx="10" fill="url(#row-grad)" stroke="#334155" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="74" rx="2" fill="#38bdf8"/>
+    <text x="24" y="32" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, monospace" font-size="15" font-weight="700" letter-spacing="1">🛍️ PDA-SHOP</text>
+    <text x="175" y="32" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="500">Multi-Store E-Commerce &amp; High-Throughput Marketplace Engine</text>
+    <text x="24" y="56" fill="#94a3b8" font-family="monospace" font-size="11">STACK: <tspan fill="#cbd5e1">Next.js · React · Prisma ORM · PostgreSQL · Tailwind CSS</tspan></text>
+    
+    <!-- Status Pill -->
+    <g transform="translate(930, 24)">
+      <rect width="150" height="26" rx="13" fill="#064e3b" stroke="#059669" stroke-width="1" opacity="0.9"/>
+      <circle cx="14" cy="13" r="4" fill="#34d399"/>
+      <text x="26" y="17" fill="#34d399" font-family="monospace" font-size="10" font-weight="700" letter-spacing="1">ACTIVE // ONLINE</text>
+    </g>
+  </g>
+
+  <!-- ROW 2: Kumbu - ERP -->
+  <g transform="translate(48, 154)">
+    <rect width="1104" height="74" rx="10" fill="url(#row-grad)" stroke="#334155" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="74" rx="2" fill="#818cf8"/>
+    <text x="24" y="32" fill="#818cf8" font-family="-apple-system, BlinkMacSystemFont, monospace" font-size="15" font-weight="700" letter-spacing="1">💼 KUMBU - ERP</text>
+    <text x="175" y="32" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="500">Enterprise Resource Planning with Multi-Tenant Financial &amp; Inventory Pipelines</text>
+    <text x="24" y="56" fill="#94a3b8" font-family="monospace" font-size="11">STACK: <tspan fill="#cbd5e1">Next.js · TypeScript · Prisma ORM · PostgreSQL · Analytics</tspan></text>
+    
+    <!-- Status Pill -->
+    <g transform="translate(930, 24)">
+      <rect width="150" height="26" rx="13" fill="#064e3b" stroke="#059669" stroke-width="1" opacity="0.9"/>
+      <circle cx="14" cy="13" r="4" fill="#34d399"/>
+      <text x="26" y="17" fill="#34d399" font-family="monospace" font-size="10" font-weight="700" letter-spacing="1">ACTIVE // ONLINE</text>
+    </g>
+  </g>
+
+  <!-- ROW 3: Zênite360 -->
+  <g transform="translate(48, 238)">
+    <rect width="1104" height="74" rx="10" fill="url(#row-grad)" stroke="#334155" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="74" rx="2" fill="#c084fc"/>
+    <text x="24" y="32" fill="#c084fc" font-family="-apple-system, BlinkMacSystemFont, monospace" font-size="15" font-weight="700" letter-spacing="1">🏥 ZÊNITE360</text>
+    <text x="175" y="32" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="500">Hospital Management Software &amp; Electronic Health Records (EHR) Pipeline</text>
+    <text x="24" y="56" fill="#94a3b8" font-family="monospace" font-size="11">STACK: <tspan fill="#cbd5e1">Next.js · React · Prisma ORM · MySQL · Medical Triage</tspan></text>
+    
+    <!-- Status Pill -->
+    <g transform="translate(930, 24)">
+      <rect width="150" height="26" rx="13" fill="#064e3b" stroke="#059669" stroke-width="1" opacity="0.9"/>
+      <circle cx="14" cy="13" r="4" fill="#34d399"/>
+      <text x="26" y="17" fill="#34d399" font-family="monospace" font-size="10" font-weight="700" letter-spacing="1">ACTIVE // ONLINE</text>
+    </g>
+  </g>
+
+  <!-- ROW 4: EduClass AO -->
+  <g transform="translate(48, 322)">
+    <rect width="1104" height="74" rx="10" fill="url(#row-grad)" stroke="#334155" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="74" rx="2" fill="#38bdf8"/>
+    <text x="24" y="32" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, monospace" font-size="15" font-weight="700" letter-spacing="1">🎓 EDUCLASS AO</text>
+    <text x="175" y="32" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="500">Institutional Academic Management &amp; Student Matriculation Architecture</text>
+    <text x="24" y="56" fill="#94a3b8" font-family="monospace" font-size="11">STACK: <tspan fill="#cbd5e1">Next.js · TypeScript · PostgreSQL · Prisma ORM · Reporting</tspan></text>
+    
+    <!-- Status Pill -->
+    <g transform="translate(930, 24)">
+      <rect width="150" height="26" rx="13" fill="#064e3b" stroke="#059669" stroke-width="1" opacity="0.9"/>
+      <circle cx="14" cy="13" r="4" fill="#34d399"/>
+      <text x="26" y="17" fill="#34d399" font-family="monospace" font-size="10" font-weight="700" letter-spacing="1">ACTIVE // ONLINE</text>
+    </g>
+  </g>
+
+  <!-- ROW 5: Gest-Q -->
+  <g transform="translate(48, 406)">
+    <rect width="1104" height="74" rx="10" fill="url(#row-grad)" stroke="#334155" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="74" rx="2" fill="#22c55e"/>
+    <text x="24" y="32" fill="#22c55e" font-family="-apple-system, BlinkMacSystemFont, monospace" font-size="15" font-weight="700" letter-spacing="1">⏱️ GEST-Q</text>
+    <text x="175" y="32" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="500">Real-Time Queue Dispensing &amp; High-Concurrency Service Flow Engine</text>
+    <text x="24" y="56" fill="#94a3b8" font-family="monospace" font-size="11">STACK: <tspan fill="#cbd5e1">Laravel · PHP · Tailwind CSS · MySQL · Real-Time Events</tspan></text>
+    
+    <!-- Status Pill -->
+    <g transform="translate(930, 24)">
+      <rect width="150" height="26" rx="13" fill="#064e3b" stroke="#059669" stroke-width="1" opacity="0.9"/>
+      <circle cx="14" cy="13" r="4" fill="#34d399"/>
+      <text x="26" y="17" fill="#34d399" font-family="monospace" font-size="10" font-weight="700" letter-spacing="1">ACTIVE // ONLINE</text>
+    </g>
+  </g>
+</svg>

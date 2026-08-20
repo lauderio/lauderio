@@ -5,7 +5,6 @@
 <br/>
 
 <div align="center">
-
   <p align="center">
     <strong>⚡ I design and engineer scalable, fault-tolerant, production-grade systems.</strong>
   </p>
@@ -19,18 +18,15 @@
       <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
     &nbsp;
-    <a href="#-devops--os">
+    <a href="https://zorin.com/os/" target="_blank">
       <img src="https://img.shields.io/badge/Workstation-Zorin_OS_(Linux)-0CC1EC?style=for-the-badge&logo=zorin&logoColor=white" alt="Workstation" />
     </a>
   </p>
-
 </div>
 
 ---
 
-## 🏛️ Engineering Philosophy & Core Competencies
-
-Senior engineer specializing in distributed web applications, multi-tenant enterprise ERP architectures, and high-concurrency systems across the **TypeScript** and **PHP** ecosystems.
+## 🏛️ Engineering Directives & Profile
 
 ```typescript
 const systemsEngineer = {
@@ -47,56 +43,25 @@ const systemsEngineer = {
 };
 ```
 
-### 🎯 Key Architectural Deliverables
-- ⚡ **Performance-Oriented Systems:** Low-latency RESTful APIs, event-driven integrations, and optimized backend pipelines built for high throughput and minimal resource usage.
-- 🎨 **High-Fidelity Frontends:** Next.js App Router (SSR, SSG, Server Actions) coupled with React and Tailwind CSS for sub-second First Contentful Paint (FCP) and accessible UX.
-- 🗄️ **Robust Data Architectures:** Deep schema normalization, indexing strategies, zero-downtime migrations, and Prisma ORM optimization with PostgreSQL and MySQL.
-- 🏢 **Enterprise Business Platforms:** Multi-tenant ERPs, hospital management systems (EHR), and educational institutional suites engineered with modular architectures.
-
----
-
-## 🛠️ Tech Stack Matrix
-
 <div align="center">
-
-### 💻 Frontend Architecture
-<p>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React.js" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-</p>
-
-### ⚙️ Backend & Databases
-<p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
-  <img src="https://img.shields.io/badge/Prisma_ORM-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma ORM" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-</p>
-
-### ☁️ DevOps & OS
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Zorin_OS-0CC1EC?style=for-the-badge&logo=zorin&logoColor=white" alt="Zorin OS" />
-</p>
-
+  <img src="./architecture.svg" width="100%" alt="Architectural Directives & Scope" />
 </div>
 
 ---
 
-## 💼 High-Impact Enterprise Projects
+## 🛠️ System Stack & Core Technologies
 
-| Project | Architectural Scope & Business Impact | Core Tech Stack |
-| :--- | :--- | :--- |
-| 💼 **Kumbu - ERP** | **Enterprise Resource Planning Platform.** Engineered with multi-tenant architecture, automated financial workflows, inventory reconciliation, and real-time operational telemetry. | `Next.js` `TypeScript` `Prisma` `PostgreSQL` |
-| 🛍️ **PDA-Shop** | **Multi-Vendor E-Commerce Marketplace.** High-throughput commerce engine with vendor isolation, relational catalog indexing, transactional cart flows, and secure payment gateway integration. | `Next.js` `React` `Prisma` `PostgreSQL` `Tailwind` |
-| 🏥 **Zênite360** | **Hospital Management System.** Mission-critical medical ERP delivering electronic health record (EHR) pipelines, patient triage automation, and secure scheduling interfaces. | `Next.js` `React` `Prisma` `MySQL` |
-| 🎓 **EduClass AO** | **Academic & Institutional ERP.** Scalable educational suite managing student matriculation, automated grade computation, class scheduling, and institutional financial auditing. | `Next.js` `TypeScript` `PostgreSQL` `Prisma` |
-| ⏱️ **Gest-Q** | **Queue & Service Concurrency Engine.** Real-time ticket dispensing and customer flow management engine designed for high concurrency and operational wait-time reduction. | `Laravel` `PHP` `Tailwind CSS` `MySQL` |
+<div align="center">
+  <img src="./techstack.svg" width="100%" alt="System Stack & Core Technologies" />
+</div>
+
+---
+
+## 💼 Deployed Enterprise Systems
+
+<div align="center">
+  <img src="./projects.svg" width="100%" alt="Deployed Enterprise Systems" />
+</div>
 
 ---
 
@@ -116,7 +81,7 @@ const systemsEngineer = {
 
 ---
 
-## 🌐 Connect & Inquiries
+## 🌐 Connect & Engineering Inquiries
 
 <div align="center">
   <p>Open to architectural consulting, enterprise software engagements, and high-impact engineering leadership opportunities.</p>

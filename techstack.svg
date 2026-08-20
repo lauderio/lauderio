@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060911"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+
+    <!-- Cyber Neon Border Gradient -->
+    <linearGradient id="neon-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <!-- Compartment Box Gradient -->
+    <linearGradient id="box-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.45"/>
+    </linearGradient>
+
+    <!-- Pill Gradient -->
+    <linearGradient id="pill-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Subtle Engineering Grid Pattern -->
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1e293b" stroke-width="0.75" opacity="0.6"/>
+    </pattern>
+
+    <!-- Ambient Glow -->
+    <radialGradient id="ambient-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Outer Background Canvas -->
+  <rect width="1200" height="480" rx="16" fill="url(#bg-grad)"/>
+
+  <!-- Grid Layer -->
+  <rect width="1200" height="480" rx="16" fill="url(#grid)"/>
+
+  <!-- Center Glow -->
+  <circle cx="600" cy="240" r="320" fill="url(#ambient-glow)"/>
+
+  <!-- Neon Border Frame -->
+  <rect x="2" y="2" width="1196" height="476" rx="15" fill="none" stroke="url(#neon-border)" stroke-width="1.5" opacity="0.85"/>
+
+  <!-- Corner Tech Accents -->
+  <path d="M 18 36 L 18 18 L 36 18" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 1182 36 L 1182 18 L 1164 18" fill="none" stroke="#c084fc" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 18 444 L 18 462 L 36 462" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 1182 444 L 1182 462 L 1164 462" fill="none" stroke="#c084fc" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Header Badge -->
+  <g transform="translate(390, 26)">
+    <rect width="420" height="28" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-width="1" opacity="0.95"/>
+    <circle cx="18" cy="14" r="4" fill="#22c55e"/>
+    <text x="34" y="18" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" font-weight="700" letter-spacing="2">SYSTEM STACK &amp; CORE TECHNOLOGIES</text>
+  </g>
+
+  <!-- 4 Compartments (2x2 Matrix) -->
+
+  <!-- COMPARTMENT 1: Frontend & UI -->
+  <g transform="translate(48, 76)">
+    <rect width="536" height="175" rx="12" fill="url(#box-grad)" stroke="#334155" stroke-width="1"/>
+    <path d="M 16 0 L 220 0" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="24" y="32" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, monospace" font-size="13" font-weight="700" letter-spacing="1.5">💻 FRONTEND &amp; UI ARCHITECTURE</text>
+    
+    <!-- Pills Row 1 -->
+    <g transform="translate(24, 52)">
+      <rect width="165" height="36" rx="8" fill="url(#pill-grad)" stroke="#38bdf8" stroke-width="0.8"/>
+      <text x="16" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">Next.js (App Router)</text>
+
+      <rect x="175" width="105" height="36" rx="8" fill="url(#pill-grad)" stroke="#38bdf8" stroke-width="0.8"/>
+      <text x="195" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">React.js</text>
+
+      <rect x="290" width="125" height="36" rx="8" fill="url(#pill-grad)" stroke="#38bdf8" stroke-width="0.8"/>
+      <text x="308" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">TypeScript</text>
+    </g>
+
+    <!-- Pills Row 2 -->
+    <g transform="translate(24, 100)">
+      <rect width="130" height="36" rx="8" fill="url(#pill-grad)" stroke="#38bdf8" stroke-width="0.8"/>
+      <text x="18" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">Tailwind CSS</text>
+
+      <rect x="140" width="120" height="36" rx="8" fill="url(#pill-grad)" stroke="#38bdf8" stroke-width="0.8"/>
+      <text x="156" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">HTML5 / CSS3</text>
+
+      <rect x="270" width="100" height="36" rx="8" fill="url(#pill-grad)" stroke="#38bdf8" stroke-width="0.8"/>
+      <text x="292" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">Sass / SCSS</text>
+    </g>
+  </g>
+
+  <!-- COMPARTMENT 2: Backend & APIs -->
+  <g transform="translate(616, 76)">
+    <rect width="536" height="175" rx="12" fill="url(#box-grad)" stroke="#334155" stroke-width="1"/>
+    <path d="M 16 0 L 220 0" stroke="#818cf8" stroke-width="2.5"/>
+    <text x="24" y="32" fill="#818cf8" font-family="-apple-system, BlinkMacSystemFont, monospace" font-size="13" font-weight="700" letter-spacing="1.5">⚙️ BACKEND &amp; SYSTEMS API</text>
+    
+    <!-- Pills Row 1 -->
+    <g transform="translate(24, 52)">
+      <rect width="110" height="36" rx="8" fill="url(#pill-grad)" stroke="#818cf8" stroke-width="0.8"/>
+      <text x="24" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">Node.js</text>
+
+      <rect x="120" width="120" height="36" rx="8" fill="url(#pill-grad)" stroke="#818cf8" stroke-width="0.8"/>
+      <text x="136" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">Express.js</text>
+
+      <rect x="250" width="95" height="36" rx="8" fill="url(#pill-grad)" stroke="#818cf8" stroke-width="0.8"/>
+      <text x="270" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">PHP 8+</text>
+    </g>
+
+    <!-- Pills Row 2 -->
+    <g transform="translate(24, 100)">
+      <rect width="110" height="36" rx="8" fill="url(#pill-grad)" stroke="#818cf8" stroke-width="0.8"/>
+      <text x="28" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">Laravel</text>
+
+      <rect x="120" width="135" height="36" rx="8" fill="url(#pill-grad)" stroke="#818cf8" stroke-width="0.8"/>
+      <text x="134" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">RESTful APIs</text>
+
+      <rect x="265" width="125" height="36" rx="8" fill="url(#pill-grad)" stroke="#818cf8" stroke-width="0.8"/>
+      <text x="280" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">Microservices</text>
+    </g>
+  </g>
+
+  <!-- COMPARTMENT 3: Data & Persistence -->
+  <g transform="translate(48, 275)">
+    <rect width="536" height="175" rx="12" fill="url(#box-grad)" stroke="#334155" stroke-width="1"/>
+    <path d="M 16 0 L 220 0" stroke="#c084fc" stroke-width="2.5"/>
+    <text x="24" y="32" fill="#c084fc" font-family="-apple-system, BlinkMacSystemFont, monospace" font-size="13" font-weight="700" letter-spacing="1.5">🗄️ DATA &amp; PERSISTENCE LAYER</text>
+    
+    <!-- Pills Row 1 -->
+    <g transform="translate(24, 52)">
+      <rect width="135" height="36" rx="8" fill="url(#pill-grad)" stroke="#c084fc" stroke-width="0.8"/>
+      <text x="22" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">Prisma ORM</text>
+
+      <rect x="145" width="130" height="36" rx="8" fill="url(#pill-grad)" stroke="#c084fc" stroke-width="0.8"/>
+      <text x="163" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">PostgreSQL</text>
+
+      <rect x="285" width="115" height="36" rx="8" fill="url(#pill-grad)" stroke="#c084fc" stroke-width="0.8"/>
+      <text x="306" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">Supabase</text>
+    </g>
+
+    <!-- Pills Row 2 -->
+    <g transform="translate(24, 100)">
+      <rect width="105" height="36" rx="8" fill="url(#pill-grad)" stroke="#c084fc" stroke-width="0.8"/>
+      <text x="26" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">MySQL</text>
+
+      <rect x="115" width="150" height="36" rx="8" fill="url(#pill-grad)" stroke="#c084fc" stroke-width="0.8"/>
+      <text x="130" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">Schema Indexing</text>
+
+      <rect x="275" width="140" height="36" rx="8" fill="url(#pill-grad)" stroke="#c084fc" stroke-width="0.8"/>
+      <text x="290" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">Data Modeling</text>
+    </g>
+  </g>
+
+  <!-- COMPARTMENT 4: DevOps & Workstation -->
+  <g transform="translate(616, 275)">
+    <rect width="536" height="175" rx="12" fill="url(#box-grad)" stroke="#334155" stroke-width="1"/>
+    <path d="M 16 0 L 220 0" stroke="#22c55e" stroke-width="2.5"/>
+    <text x="24" y="32" fill="#22c55e" font-family="-apple-system, BlinkMacSystemFont, monospace" font-size="13" font-weight="700" letter-spacing="1.5">☁️ DEVOPS, CLOUD &amp; WORKSTATION</text>
+    
+    <!-- Pills Row 1 -->
+    <g transform="translate(24, 52)">
+      <rect width="100" height="36" rx="8" fill="url(#pill-grad)" stroke="#22c55e" stroke-width="0.8"/>
+      <text x="22" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">Docker</text>
+
+      <rect x="110" width="100" height="36" rx="8" fill="url(#pill-grad)" stroke="#22c55e" stroke-width="0.8"/>
+      <text x="30" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">Vercel</text>
+
+      <rect x="220" width="105" height="36" rx="8" fill="url(#pill-grad)" stroke="#22c55e" stroke-width="0.8"/>
+      <text x="238" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">Render</text>
+    </g>
+
+    <!-- Pills Row 2 -->
+    <g transform="translate(24, 100)">
+      <rect width="115" height="36" rx="8" fill="url(#pill-grad)" stroke="#22c55e" stroke-width="0.8"/>
+      <text x="20" y="22" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">Git / CI-CD</text>
+
+      <rect x="125" width="220" height="36" rx="8" fill="url(#pill-grad)" stroke="#22c55e" stroke-width="0.8"/>
+      <text x="140" y="22" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700">Zorin OS (Linux Host)</text>
+    </g>
+  </g>
+</svg>

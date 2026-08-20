@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060911"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+
+    <!-- Cyber Neon Border Gradient -->
+    <linearGradient id="neon-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <!-- Card Compartment Gradient -->
+    <linearGradient id="box-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.45"/>
+    </linearGradient>
+
+    <!-- Subtle Engineering Grid Pattern -->
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1e293b" stroke-width="0.75" opacity="0.6"/>
+    </pattern>
+
+    <!-- Ambient Glow -->
+    <radialGradient id="ambient-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Outer Background Canvas -->
+  <rect width="1200" height="360" rx="16" fill="url(#bg-grad)"/>
+
+  <!-- Grid Layer -->
+  <rect width="1200" height="360" rx="16" fill="url(#grid)"/>
+
+  <!-- Center Glow -->
+  <circle cx="600" cy="180" r="300" fill="url(#ambient-glow)"/>
+
+  <!-- Neon Border Frame -->
+  <rect x="2" y="2" width="1196" height="356" rx="15" fill="none" stroke="url(#neon-border)" stroke-width="1.5" opacity="0.85"/>
+
+  <!-- Corner Tech Accents -->
+  <path d="M 18 36 L 18 18 L 36 18" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 1182 36 L 1182 18 L 1164 18" fill="none" stroke="#c084fc" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 18 324 L 18 342 L 36 342" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 1182 324 L 1182 342 L 1164 342" fill="none" stroke="#c084fc" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Header Badge -->
+  <g transform="translate(420, 28)">
+    <rect width="360" height="28" rx="14" fill="#0f172a" stroke="#818cf8" stroke-width="1" opacity="0.95"/>
+    <circle cx="18" cy="14" r="4" fill="#38bdf8"/>
+    <text x="34" y="18" fill="#818cf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" font-weight="700" letter-spacing="2">ARCHITECTURAL DIRECTIVES &amp; SCOPE</text>
+  </g>
+
+  <!-- 4 Architectural Deliverables (2x2 Grid) -->
+
+  <!-- Box 1: Performance-Oriented Systems -->
+  <g transform="translate(48, 80)">
+    <rect width="536" height="115" rx="10" fill="url(#box-grad)" stroke="#334155" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="115" rx="2" fill="#38bdf8"/>
+    <text x="24" y="36" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="14" font-weight="700" letter-spacing="1.5">⚡ PERFORMANCE-ORIENTED SYSTEMS</text>
+    <text x="24" y="66" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="400">High-throughput backend pipelines, event-driven integrations,</text>
+    <text x="24" y="88" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="400">and low-latency RESTful APIs engineered for zero bottlenecks.</text>
+  </g>
+
+  <!-- Box 2: High-Fidelity Frontends -->
+  <g transform="translate(616, 80)">
+    <rect width="536" height="115" rx="10" fill="url(#box-grad)" stroke="#334155" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="115" rx="2" fill="#818cf8"/>
+    <text x="24" y="36" fill="#818cf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="14" font-weight="700" letter-spacing="1.5">🎨 HIGH-FIDELITY FRONTENDS</text>
+    <text x="24" y="66" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="400">Next.js App Router (SSR, SSG, Server Actions) &amp; React.</text>
+    <text x="24" y="88" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="400">Sub-second First Contentful Paint (FCP) and accessible UX.</text>
+  </g>
+
+  <!-- Box 3: Robust Data Architectures -->
+  <g transform="translate(48, 215)">
+    <rect width="536" height="115" rx="10" fill="url(#box-grad)" stroke="#334155" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="115" rx="2" fill="#c084fc"/>
+    <text x="24" y="36" fill="#c084fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="14" font-weight="700" letter-spacing="1.5">🗄️ ROBUST DATA ARCHITECTURES</text>
+    <text x="24" y="66" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="400">Deep relational normalization, query indexing strategies, and</text>
+    <text x="24" y="88" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="400">zero-downtime ORM orchestration with PostgreSQL &amp; Prisma.</text>
+  </g>
+
+  <!-- Box 4: Enterprise Business Platforms -->
+  <g transform="translate(616, 215)">
+    <rect width="536" height="115" rx="10" fill="url(#box-grad)" stroke="#334155" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="115" rx="2" fill="#22c55e"/>
+    <text x="24" y="36" fill="#22c55e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="14" font-weight="700" letter-spacing="1.5">🏢 ENTERPRISE BUSINESS PLATFORMS</text>
+    <text x="24" y="66" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="400">Custom multi-tenant ERPs, hospital management (EHR), and</text>
+    <text x="24" y="88" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="400">high-concurrency marketplaces built with modular architecture.</text>
+  </g>
+</svg>
